@@ -1,0 +1,69 @@
+.details {
+  width: 100%;
+  background: grey;
+  color: white;
+  margin: 0;
+  padding: 10px 10px;
+}
+.about {
+  display: flex;
+  justify-content: right;
+  padding: 0;
+  margin: 0;
+}
+.about span {
+  margin-right: 2.5%;
+}
+
+.flex {
+  display: flex;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button-add {
+  display: block;
+  color: white;
+  background: black;
+}
+
+.button-remove {
+  display: none;
+  color: black;
+  background: white;
+}
+
+.button-remove:hover {
+  display: none;
+  color: white;
+  background: black;
+}
+
+.cart-notification {
+  position: fixed;
+  right: 5%;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-notification {
+  display: none;
+  background: white;
+  border: 1px solid green;
+  border-top: 7px solid green;
+  border-radius: 3px;
+  padding: 15px 30px;
+}
+
+.remove-notification {
+  display: none;
+  background: white;
+  border: 1px solid red;
+  border-top: 7px solid red;
+  border-radius: 3px;
+  padding: 15px 30px;
+}
